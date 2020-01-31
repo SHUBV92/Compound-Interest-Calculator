@@ -16,3 +16,9 @@ print(' ')
 
 monthly_invest = monthly_invest * 12 
 final_amount = 0 
+
+for i in range(0, years):
+    if final_amount == 0:
+        final_amount = principal 
+
+   
