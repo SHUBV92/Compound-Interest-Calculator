@@ -12,3 +12,7 @@ monthly_invest = float(raw_input('Enter amount: '))
 print('What do you estimate will be the yearly interest of this investment?')
 interest = float(raw_input('Enter interest in decimal numbers (10% = 0.1):'))
 
+print(' ')
+
+monthly_invest = monthly_invest * 12 
+final_amount = 0 
